@@ -40,14 +40,15 @@ Started with Weta-watcher to building open source wildlife camera is thriving jo
 Modern technologies and Cloud enable rapid experimentation and development of distributed systems that were considered very complex several years ago. Within a few clicks or lines of code we can spin out a whole environment with databases, message brokers and microservices securely deployed in the Cloud of our choice. We can then gradually and continuously experiment our ideas, hypothesis and thus delight our customers with solving they toughest pains. Therefore, our strategy is to define initial architecture based on customer feedbacks as an ideal target state (which of course will evolve) and aim to to that. Here, we see no benefit in investing time and effort in creating technical debt and building monolithic systems or components which will (require refactoring and re-engineering in the future. Of course if we experiment with something that we don’t know we can do temporary trade-offs and simplifications, but we should have a very clear reason for NOT aiming to the ideal target state. Unless, we are building a minimum viable product for rapid experimentation with new hypothesis and we are not sure about future requirements, customer needs or market. Our main principle is that "we are not rich enough to buy cheap things".
 
 # Sequence diagrams
-- [Authentication and Authorization](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD%20-%20Authentication%20and%20Authorization.png)
-- [GBIF Repository upload](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-%20GBIF.png)
-- [Third party analysis](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-%20Third%20party%20analysis.png)
-- [Camera control functionality](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-Camera%20Control.png)
-- [Camera alert functionality](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/cameraAlert.png)
-- [iNaturralist uploads](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/iNaturalist.png)
-- [Model Ingestion to Camera funtionality](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/Model%20Ingestion%20to%20Camera.png)
-- [Metadata Prediction and Sharing](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/Metadata%20Prediction%20and%20Sharing.png)
+- [Authentication and Authorization](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD%20-%20Authentication%20and%20Authorization.png)
+- [GBIF Repository upload](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20GBIF.png)
+- [Model Training](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Model%20training.png)
+- [Third party analysis](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Third%20party%20analysis.png)
+- [Camera control functionality](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Camera%20Control.png)
+- [Camera alert functionality](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Camera%20Alert.png)
+- [iNaturralist uploads](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-iNaturalist.png)
+- [Model Ingestion to Camera funtionality](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Model%20Ingestion%20to%20Camera.png)
+- [Metadata Prediction and Sharing](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Metadata%20Prediction%20and%20Sharing.png)
 
 
 
