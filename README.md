@@ -2,26 +2,26 @@
 
 TABLE OF CONTENTS
 =================
-- [Prelude](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#prelude)
-- [Vision](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#vision)
-- [Business Requirements](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#business-requirements)
-  - [Short term](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#short-term)
-  - [Mid term](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#mid-term)
-  - [Long term](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#long-term)
-- [Strategy](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#strategy)
-- [System Architecture](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#system-architecture)
-  - [Core Components of System Architecture](https://github.com/Team-WildCode/Katas-WildCode/#core-components-of-system-architecture)
-    - [User-Centric Mobile Application](https://github.com/Team-WildCode/Katas-WildCode/#user-centric-mobile-application)
-    - [Metadata Sharing and Firmware Integration](https://github.com/Team-WildCode/Katas-WildCode/#metadata-sharing-and-firmware-integration)
-    - [Adaptive Communication Models](https://github.com/Team-WildCode/Katas-WildCode/#adaptive-communication-models)
-    - [Model Training and Repository](https://github.com/Team-WildCode/Katas-WildCode/#model-training-and-repository)
-    - [Integration with Analysis Platforms](https://github.com/Team-WildCode/Katas-WildCode/#integration-with-analysis-platforms)
-    - [User Feedback and Improvement Loop](https://github.com/Team-WildCode/Katas-WildCode/#user-feedback-and-improvement-loop)
- - [Architectural Characteristics](https://github.com/Team-WildCode/Katas-WildCode/#architectural-characteristics)
- - [Architecture Style](https://github.com/Team-WildCode/Katas-WildCode/#architecture-style)
-- [ADR's](https://github.com/Team-WildCode/Katas-WildCode/#adrs)
-- [Video Presentation](https://github.com/Team-WildCode/Katas-WildCode/blob/main/README.md#video-presentation)
-- [References](https://github.com/Team-WildCode/Katas-WildCode/#references)
+- [Prelude](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#prelude)
+- [Vision](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#vision)
+- [Business Requirements](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#business-requirements)
+  - [Short term](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#short-term)
+  - [Mid term](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#mid-term)
+  - [Long term](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#long-term)
+- [Strategy](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#strategy)
+- [System Architecture](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#system-architecture)
+  - [Core Components of System Architecture](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#core-components-of-system-architecture)
+    - [User-Centric Mobile Application](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#user-centric-mobile-application)
+    - [Notification Alert and Metadata Sharing](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#notification-alerts-and-metadata-sharing)
+    - [Adaptive Communication Models](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#adaptive-communication-models)
+    - [Model Training and Repository](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#model-training-and-repository)
+    - [Integration with Analysis Platforms](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#integration-with-analysis-platforms)
+    - [User Feedback and Improvement Loop](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#user-feedback-and-improvement-loop)
+ - [Architectural Characteristics](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#architectural-characteristics)
+ - [Architecture Style](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#architecture-style)
+- [ADR's](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#adrs)
+- [Video Presentation](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#video-presentation)
+- [References](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/tree/main#references)
 
 # Prelude
 
@@ -65,7 +65,7 @@ Modern technologies and Cloud enable rapid experimentation and development of di
 
 Our platform is designed to fulfill the requirements outlined by Wildlife AI, encompassing user management, camera operations, notification dispatch, multimedia processing such as images and videos, and collaboration with our associates and suppliers. For better structure, we've allocated each domain to a dedicated module in our proposed framework.
 
-![Wildlife Component Diagram](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Wildlife%20Component%20Diagram.png)
+![Wildlife Component Diagram](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Wildlife%20Component%20Diagram.png)
 
 ## Core Components Of System Architecture
 
@@ -75,11 +75,11 @@ Our proposed mobile app empowers users to effortlessly control cameras, modify s
 
 #### Camera Control
 
-![SQD-Camera Control](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-Camera%20Control.png)
+![SQD-Camera Control](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Camera%20Control.png)
 
 #### Authentication and Authorization
 
-![SQD - Authentication and Authorization](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD%20-%20Authentication%20and%20Authorization.png)
+![SQD - Authentication and Authorization](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD%20-%20Authentication%20and%20Authorization.png)
 
 ### Notification Alerts and Metadata Sharing
 
@@ -89,11 +89,11 @@ Periodic heartbeat status updates and predicted metdata are sent to mobile appli
 
 #### Model Ingestion To Camera
 
-![Model Ingestion To Camera](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/Model%20Ingestion%20to%20Camera.png)
+![SQD-Model Ingestion to Camera](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Model%20Ingestion%20to%20Camera.png).
 
 #### Metadata Prediction and Sharing
 
-![Metadata Prediction and Sharing](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/Metadata%20Prediction%20and%20Sharing.png)
+![SQD-Metadata Prediction and Sharing](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Metadata%20Prediction%20and%20Sharing.png)
 
 ### Adaptive Communication Models
 
@@ -101,7 +101,7 @@ Diverse communication models—LoRaWAN(Places with no cellular network), 3G(Near
 
 #### Communication Models
 
-![Communication Models](https://github.com/Team-WildCode/Katas-WildCode/blob/main/images/Communication%20Models.png)
+![Communication Models](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Images/Communication%20Models.png)
 
 ### Model Training and Repository
 
@@ -111,11 +111,11 @@ Users can trigger model checkpoint files, stored in a trained model database, to
 
 #### Model Training Repository
 
-![SQD- Model Training](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-%20Model%20training.png)
+![SQD- Model Training](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Model%20training.png)
 
 #### Camera Alert
 
-![Camera Alert](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/cameraAlert.png)
+![SQD-Camera Alert](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-Camera%20Alert.png)
 
 
 ### Integration with Analysis Platforms
@@ -124,15 +124,15 @@ Users gain access to common camera trap labeling platforms such as Wildlife Insi
 
 #### Third Party Analysis
 
-![SQD- Third Party Analysis](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-%20Third%20party%20analysis.png)
+![SQD- Third Party Analysis](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Third%20party%20analysis.png)
 
 #### iNaturalist uploads
 
-![iNaturralist](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/iNaturalist.png)
+![SQD-iNaturralist](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-iNaturalist.png)
 
 #### GBIF Uploads
 
-![SQD- GBIF](https://github.com/Team-WildCode/Katas-WildCode/blob/main/Sequence%20Diagram/SQD-%20GBIF.png)
+![SQD- GBIF](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20GBIF.png)
 
 ### User Feedback and Improvement Loop
 
@@ -174,23 +174,23 @@ EDA is leveraged to facilitate real-time communication among the microservices, 
 
 In essence, the proposed architecture harmonizes the strengths of microservices, SOA, and EDA to deliver a robust, scalable, and adaptable solution that meets the demands of near-real-time communication and responsiveness in uncertain environments.
 
-![Architecture Worksheet](https://github.com/Team-WildCode/Katas-WildCode/blob/main/images/Architecture_Worksheet.png)
+![Architecture Worksheet](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Images/Architecture_Worksheet.png)
 
 # ADRs
 
 The below ADRs contains the architectural decisions regarding the proposed design including required context and rationale
 
-[AD001](https://github.com/Team-WildCode/Katas-WildCode/blob/main/ADRs/AD001%20-%20MobileApplicationWithCameraInteraction.md) - A mobile application that allows customers to interact with a camera system
+[AD001](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/ADRs/ADR001-MobileApplicationforCameraInteraction.md) - A mobile application that allows customers to interact with a camera system
 
-[AD002](https://github.com/Team-WildCode/Katas-WildCode/blob/main/ADRs/ADR002%20-%20ModelTrainingAndThirdPartyAnalysis.md) - Leveraging AI for species identification through camera traps can significantly enhance the speed and accuracy of data analysis.
+[AD002](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/ADRs/ADR002%20-%20ModelTrainingAndThirdPartyAnalysis.md) - Leveraging AI for species identification through camera traps can significantly enhance the speed and accuracy of data analysis.
 
-[AD003](https://github.com/Team-WildCode/Katas-WildCode/blob/main/ADRs/ADR003%20-%20NotificationAlert.md) - Implementing a system that enables the camera to send periodic heartbeat status updates to the user via a mobile application and interact with the camera software to retrieve prediction metadata.
+[AD003](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/ADRs/ADR003%20-%20NotificationAlert.md) - Implementing a system that enables the camera to send periodic heartbeat status updates to the user via a mobile application and interact with the camera software to retrieve prediction metadata.
 
-[AD004](https://github.com/Team-WildCode/Katas-WildCode/blob/main/ADRs/ADR004%20-%20UserFeedbackService.md) - Establish a dedicated User Feedback Service to facilitate seamless communication between users and the development team.
+[AD004](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/ADRs/ADR004%20-%20UserFeedbackService.md) - Establish a dedicated User Feedback Service to facilitate seamless communication between users and the development team.
 
 # Video Presentation
 
-[WildCodeWranglers Presentation Video](https://github.com/Team-WildCode/Katas-WildCode/blob/main/WildCodeWranglers%20Presentation%20Video.mp4)
+[WildCodeWranglers Video Presentation](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Video%20Presentation/WildCodeWranglers%20Presentation%20Video.mp4)
 
 # References
 
