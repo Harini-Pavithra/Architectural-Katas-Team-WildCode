@@ -124,7 +124,7 @@ Users gain access to common camera trap labeling platforms such as Wildlife Insi
 
 #### Third Party Analysis
 
-![SQD- Third Party Analysis](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Third%20party%20analysis.png)
+![SQD- Third party analysis](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Sequence%20Diagrams/SQD-%20Third%20party%20analysis.png)
 
 #### iNaturalist uploads
 
