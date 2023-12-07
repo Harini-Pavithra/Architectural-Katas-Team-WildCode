@@ -198,3 +198,8 @@ The below ADRs contains the architectural decisions regarding the proposed desig
 2. [Software Architecture Patterns](https://www.oreilly.com/library/view/software-architecture-patterns/9781098134280/)
 3. [Designing Machine Learning](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 4. [Worksheets](https://www.developertoarchitect.com/resources.html)
+
+# Winners Announcement
+Runner-Up of O'reilly Architectural Katas 2023.
+
+![Announcement](https://github.com/Harini-Pavithra/Architectural-Katas-Team-WildCode/blob/main/Images/Announcement.png) 
